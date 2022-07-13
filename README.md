@@ -9,7 +9,7 @@ Reads and stores NBA data in a MySQL database.
 |[PlayerGeneralTraditionalTotals](https://github.com/kaiyangzheng/nba-mysql/blob/main/src/models/PlayerGeneralTraditionalTotals.py)|Stores traditional statistic totals for a player|
 ## Use
 1. Install Python >= 3.10
-2. Install dependencies with >pip install -r requirements.txt
+2. Install dependencies with ```pip install -r requirements.txt```
 3. Install MySQL and start a local server
 4. Create a .env file in /src and fill in the parameters DB_NAME, DB_HOST, DB_USER, and DB_PASSWORD
 5. To generate data for PlayerBio table, run [player_bios.py](https://github.com/kaiyangzheng/nba-mysql/blob/main/src/player_bios.py)
